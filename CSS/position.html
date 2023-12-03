@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <title>Position properties</title>
+    <style>
+        div{
+            top:20px;
+            
+        }
+        .parent{
+            background-color: green;
+            position:relative;
+        }
+        .child1{
+            background-color: orange;
+            left:30px;
+            position:relative;
+        }
+        .child2{
+            background-color: yellow;
+            top:30px;
+            left:20px;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    
+     <div  class="main"  style="background-color: aqua;">this is div</div>
+     <span class="main"  style="background-color: green;">this is span</span>
+
+     <div  class="parent">
+        <div class="child1">this is child1</div>
+           <div class="child2">this is child2</div>
+     </div>
+    </body>
+</html>

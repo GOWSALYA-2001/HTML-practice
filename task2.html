@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <title>Form</title>
+</head>
+<body>
+    
+    <h2>User Details</h2>
+
+<form action="/submit_form" method="post" enctype="multipart/form-data">
+  <label for="firstname">First Name:</label><br>
+  <input type="text" id="firstname" name="firstname"><br><br>
+
+  <label for="middlename">Middle Name:</label><br>
+  <input type="text" id="middlename" name="middlename"><br><br>
+
+  <label for="lastname">Last Name:</label><br>
+  <input type="text" id="lastname" name="lastname"><br><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email"><br><br>
+
+  <label for="password">Password:</label><br>
+  <input type="password" id="password" name="password"><br><br>
+
+  <label for="phone">Phone Number:</label><br>
+  <input type="tel" id="phone" name="phone"><br><br>
+
+  <label for="picture">Upload Picture:</label><br>
+  <input type="file" id="picture" name="picture"><br><br>
+
+  <input type="submit" value="Submit">
+</form><br>
+
+<form onsubmit="food()" method="post">
+    <label for="email">Email</label><br>
+    <input type="email" name="" id="email"><br>
+    <label for="password">Password</label><br>
+    <input type="password" name="" id="password"><br>
+    <button>Submit</button>
+</form>
+
+</body>
+</html>
